@@ -33,3 +33,5 @@
 - 21 Consumindo API
 - 22 useEffect Async
 - 23 Encerramento
+
+[Fonte do projeto](https://app.rocketseat.com.br/discover/course/especializar-react/especializar-react/encerramento-4)
