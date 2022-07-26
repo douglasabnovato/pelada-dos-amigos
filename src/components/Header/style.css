@@ -1,11 +1,16 @@
 header {
     width: 50%;
-    margin: 84px;
+    margin: 84px 0 24px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
  
+header div{
+    display: flex; 
+    align-items: center;
+}
+
 header h1,
 header strong {
     color: white;
@@ -16,9 +21,4 @@ header img{
     height: 60px;
     border-radius: 30px;
     margin-left: 7px;
-}
- 
-header div{
-    display: flex; 
-    align-items: center;
 }

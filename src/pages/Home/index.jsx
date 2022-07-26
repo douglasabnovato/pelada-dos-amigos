@@ -1,13 +1,20 @@
 import { useState, useEffect } from "react";
 import Card from "./../../components/Card";
-import Titleh1 from "../../components/Tilteh1";
+import Header from "../../components/Header";
 import "./style.css";
 
 export default function Home() {
   const [atleticName, setAtleticName] = useState();
   const [atletics, setAtletics] = useState([]);
+  const [user, setUser] = useState({
+    name: "",
+    avatar: "",
+  });
+  const [api_github, setApi_github] = useState(
+    "https://api.github.com/users/douglasabnovato"
+  );
 
-  function handleAddStudent() {
+  function handleAddAtletic() {
     const newAtletic = {
       name: atleticName,
       time: new Date().toLocaleDateString("pt-br", {
@@ -20,23 +27,34 @@ export default function Home() {
     setAtletics((prevState) => [...prevState, newAtletic]);
   }
 
+  useEffect(() => {
+    fetch(api_github)
+      .then((response) => response.json())
+      .then((data) => {
+        setUser({
+          name: data.name,
+          avatar: data.avatar_url,
+        });
+      });
+  }, []);
+
   return (
     <div className="container">
-      <h1>{atleticName}</h1>
-      <Titleh1 titulo="Lista da Pelada" />
+      <Header
+        titulo="Lista da Pelada"
+        organizador={user.name}
+        image_url={user.avatar}
+      />
       <input
         type="text"
         placeholder="Digite seu nome"
         onChange={(e) => setAtleticName(e.target.value)}
       />
-      <button type="button" onClick={handleAddStudent}>
+      <button type="button" onClick={handleAddAtletic}>
         Adicionar
       </button>
       {atletics.map((atletic) => (
-        <Card 
-        key={atletic.time}
-        name={atletic.name} 
-        time={atletic.time} />
+        <Card key={atletic.time} name={atletic.name} time={atletic.time} />
       ))}
     </div>
   );
