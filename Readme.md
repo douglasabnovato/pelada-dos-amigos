@@ -2,6 +2,12 @@
 
 - criar lista da pelada pelo organizador, pouco antes de iniciar, na ordem de chegada.
 
+#### Versão Lts
+
+<h1 align="center">
+    <img alt="versão 1.0 do projeto" title="#lista-dapelada" src="./.github/tela-versao-lts.jpg">
+</h1>
+
 #### Pontos Técnicos
 
 - 1 Abertura
