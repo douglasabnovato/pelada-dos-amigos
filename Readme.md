@@ -8,6 +8,12 @@
     <img alt="versão 1.0 do projeto" title="#lista-dapelada" src="./.github/tela-versao-lts.jpg">
 </h1>
 
+#### Tecnologias
+
+- Reactjs, Hook
+- HTML, CSS, Javascript
+- API
+
 #### Pontos Técnicos
 
 - 1 Abertura
@@ -33,5 +39,10 @@
 - 21 Consumindo API
 - 22 useEffect Async
 - 23 Encerramento
+
+#### Executar o projeto
+
+- npm install na raiz do projeto
+- npm run dev para rodar localhost na porta 5173
 
 [Fonte do projeto](https://app.rocketseat.com.br/discover/course/especializar-react/especializar-react/encerramento-4)
