@@ -46,3 +46,4 @@
 - npm run dev para rodar localhost na porta 5173
 
 [Fonte do projeto](https://app.rocketseat.com.br/discover/course/especializar-react/especializar-react/encerramento-4)
+Fonte do projeto: [Trilha Especializar - Rocketseat Discover](https://www.rocketseat.com.br/) 
