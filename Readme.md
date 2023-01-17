@@ -45,5 +45,9 @@
 - npm install na raiz do projeto
 - npm run dev para rodar localhost na porta 5173
 
+### Tarefas
+
+- Fazer o upload de imagens e vídeos para registrar as peladas e eventos.
+
 [Fonte do projeto](https://app.rocketseat.com.br/discover/course/especializar-react/especializar-react/encerramento-4)
 Fonte do projeto: [Trilha Especializar - Rocketseat Discover](https://www.rocketseat.com.br/) 
