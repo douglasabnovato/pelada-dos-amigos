@@ -47,7 +47,9 @@
 
 ### Tarefas
 
-- Fazer o upload de imagens e vídeos para registrar as peladas e eventos.
+- [ ] Fazer o upload de imagens e vídeos para registrar as peladas e eventos.
+- [ ] Fazer a lista da pelada e registrar
+- [ ] Exibir os registros com design
 
 [Fonte do projeto](https://app.rocketseat.com.br/discover/course/especializar-react/especializar-react/encerramento-4)
 Fonte do projeto: [Trilha Especializar - Rocketseat Discover](https://www.rocketseat.com.br/) 
